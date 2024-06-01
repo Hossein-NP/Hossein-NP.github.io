@@ -577,7 +577,7 @@ Main >> Accordion Section
   font-weight: 700;
   font-family: "samsungsharpsans sans";
   color: var(--dark-36);
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
 }
 .accordion_captions {
   height: auto;
@@ -592,7 +592,7 @@ Main >> Accordion Section
   margin-right: auto;
   margin-left: auto;
   font-family: "SamsungOne-400", Arial, Helvetica, "San-Serif";
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-bottom: 1.2rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
