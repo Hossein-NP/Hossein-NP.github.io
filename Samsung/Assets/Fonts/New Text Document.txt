@@ -1,0 +1,9 @@
+<div class="accordion-title_icon df-center transi-300_all">
+  <i class="bi bi-chevron-down ac-icons"></i>
+</div>
+<div class="accordion-title_icon df-center transi-300_all">
+            <i class="bi bi-chevron-down ac-icons"></i>
+          </div>
+<div class="accordion-title_icon df-center transi-300_all">
+            <i class="bi bi-chevron-down ac-icons"></i>
+          </div>
