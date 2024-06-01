@@ -2,6 +2,9 @@
 Media Query
 */
 @media all and (min-width:320px) and (max-width:574px) {
+  .container-swiper__content-link {
+    font-size: var(--font-size-20);
+  }
   .footer-copyright {
     font-size: var(--font-size-10);
   }
