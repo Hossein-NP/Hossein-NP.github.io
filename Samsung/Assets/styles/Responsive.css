@@ -19,6 +19,9 @@ Media Query
   .container {
     width: 54rem;
   }
+  .sustain-wrp__slide-button {
+    font-size: var(--font-size-12);
+  }
   .accordion_caption{
     text-align: left;
   }

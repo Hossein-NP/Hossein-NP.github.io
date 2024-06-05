@@ -8,7 +8,12 @@ Container
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
+Container Fluid
+*/
+.container-fluid {
+  width: 100%;
+}
 /*
 Media Query
 */
@@ -17,24 +22,43 @@ Media Query
   .container {
     width: 54rem;
   }
+  .container-fluid {
+  width: 100%;
+}
 }
 @media all and (min-width:768px) {
   .container {
     width: 72rem;
   }
+  .container-fluid {
+  width: 100%;
+}
 }
 @media all and (min-width:992px) {
   .container {
     width: 96rem;
   }
+  .container-fluid {
+  width: 100%;
+}
 }
 @media all and (min-width:1200px) {
   .container {
     width: 114rem;
   }
+  .container-fluid {
+  width: 100%;
+}
 }
 @media all and (min-width:1400px) {
   .container {
     width: 137rem;
   }
+  .container-fluid {
+  width: 137rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
