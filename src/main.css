@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Outfit bold"; /*700*/
+        src: local("OutfitBold"), 
+        url("./1-qr-code-component-main-newbie/Outfit/static/Outfit-Bold.ttf") format("true type");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Outfit light"; /*400*/
+        src: local("OutfitLight"), 
+        url("./1-qr-code-component-main-newbie/Outfit/static/Outfit-Light.ttf") format("true type");
+        font-display: swap;
+    }
+ .outfit {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    }
+}
