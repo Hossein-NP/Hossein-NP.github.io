@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Links</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./loginPage/reset.css" />
-    <link rel="stylesheet" href="./loginPage/app.css" />
-    <link rel="stylesheet" href="./loginPage/grid.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Links Page</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="bg-zinc-900">
     
-    <div class="container">
-      <div class="projects-list-wrapper">
-        <!-- -------pl-3 -->
-        <div class="projects-list">
-          <div class="project-list__in">
-            <div class="project-list__front"></div>
-            <div class="project-list__back">
-              <div class="link-to-project">
-                <a href="./Samsung/index.html" target="_blank"><i class="bi bi-eye-slash"></i></a>
-              </div>
+    <main>
+        <div class="container mt-10">
+            <!-- QR Code Component -->
+        <div class="w-full max-w-sm bg-zinc-700 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+            <div class="flex justify-end px-4 pt-4">
+                <!-- Dropdown menu -->
             </div>
-          </div>
+            <div class="flex flex-col items-center pb-10">
+                <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="../FrontEndMentor/FrontEndMentorChallenges/1-qr-code-component-main-newbie/images/image-qr-code.png" alt="Bonnie image"/>
+                <h5 class="mb-1 text-xl font-medium text-slate-50 dark:text-white">QR code component</h5>
+                <span class="text-sm text-gray-400 dark:text-gray-400">Front End Mentor Challenge</span>
+                <div class="flex mt-4 md:mt-6">
+                    <a href="../" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">See Project</a>                    
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <script src="./loginPage/app.js"></script>
-  </body>
+        </div>
+    </main>
+
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
 </html>
